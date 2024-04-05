@@ -29,7 +29,7 @@ def main():
     
     brand_names = ['Ultratech', 'Webber', 'Mcon', 'Myk', 'ROKSO', 'Capaland', 'Ascolite', 'Duw', 'Fosroc', 'Hawks', 'Indiana', 'Vura', 'JK', 'DR', 'Roff', 'Sika', 'LATICRETE', 'Build', 'TIPRO']  
     
-    brand_name = st.sidebar.selectbox("Select Store Pincode", brand_names)
+    brand_name = st.sidebar.selectbox("Select Brand", brand_names)
 
     # Filter data based on brand name
     filtered_data = store_data[store_data['Brand Name'] == brand_name]
