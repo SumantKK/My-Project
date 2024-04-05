@@ -61,7 +61,7 @@ def get_pincode(store_name):
 def get_insulin_details(brand_name):
     insulin_details = {
         'Ultratech': {'Insulin Name': 'Ultratech Tilefixo NT Good Bonding', 'Insulin Type': 'Mumbai North', 'Dosage Strength': '30', 'Price (INR)': 740},
-        'Ascolite': {'Insulin Name': 'Ascolite Fixobond Polymer Modified Tile Adhesive', 'Mumbai North': 'long-acting', 'Dosage Strength': '50', 'Price (INR)': 630},
+        'Ascolite': {'Insulin Name': 'Ascolite Fixobond Polymer Modified Tile Adhesive', 'Insulin Type':'Mumbai North', 'Dosage Strength': '50', 'Price (INR)': 630},
         'Build': {'Insulin Name': 'Build Green Tile Adhesive', 'Insulin Type': 'Mumbai Central / Eastern', 'Dosage Strength': '10', 'Price (INR)': 650},
         'Capaland': {'Insulin Name': 'Capaland Plus (Grey) C1T', 'Insulin Type': 'Mumbai Central / Eastern', 'Dosage Strength': '10', 'Price (INR)': 770},
         'DR': {'Insulin Name': 'DR Fixit Floor Tile Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': '30', 'Price (INR)': 630},
