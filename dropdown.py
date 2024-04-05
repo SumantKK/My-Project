@@ -210,9 +210,8 @@ def main():
     st.write('Store Pincode:', pincode)
 
     # Dropdown options for brand name
-    brand_names = [
-        'Ultratech', 'Webber', 'Mcon', 'Myk', 'ROKSO', 'Capaland', 'Ascolite', 'Duw', 'Fosroc', 'Hawks', 'Indiana', 'Vura', 'JK', 'DR', 'Roff', 'Sika', 'LATICRETE', 'Build', 'TIPRO'
-    ]
+    brand_names = ['Ultratech', 'Webber', 'Mcon', 'Myk', 'ROKSO', 'Capaland', 'Ascolite', 'Duw', 'Fosroc', 'Hawks', 'Indiana', 'Vura', 'JK', 'DR', 'Roff', 'Sika', 'LATICRETE', 'Build', 'TIPRO']
+    
     brand_name = st.selectbox('Brand Name', brand_names)
 
     if brand_name not in store_to_brands.get(store_name, []):
