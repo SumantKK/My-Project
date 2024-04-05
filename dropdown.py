@@ -210,9 +210,7 @@ def main():
 
     # Dropdown options for brand name
     brand_names = [
-        'Ultratech', 
-        'Webber', 
-        'Mcon'
+        'Ultratech','Webber','Mcon'
     ]
     
     brand_name = st.selectbox('Brand Name', brand_names)
