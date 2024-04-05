@@ -27,7 +27,7 @@ def main():
 
     # Sidebar - Brand Name input
     
-    brand_names = ['Human Actrapid', 'LUPISULIN N', 'NovoRapid', 'Ryzodeg', 'Fiasp','Basalog Refil', 'APIDRA', 'Wosulin', 'HUMARAP', 'LANTUS','LEVEMIR', 'Humstard 30/70', 'Humapen Ergo']  
+    brand_names = ['Ultratech', 'Webber', 'Mcon', 'Myk', 'ROKSO', 'Capaland', 'Ascolite', 'Duw', 'Fosroc', 'Hawks', 'Indiana', 'Vura', 'JK', 'DR', 'Roff', 'Sika', 'LATICRETE', 'Build', 'TIPRO']  
     
     brand_name = st.sidebar.selectbox("Select Store Pincode", brand_names)
 
