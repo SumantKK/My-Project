@@ -60,25 +60,25 @@ def get_pincode(store_name):
 
 def get_insulin_details(brand_name):
     insulin_details = {
-        'Ultratech': {'Insulin Name': 'Ultratech Tilefixo NT Good Bonding', 'Insulin Type': 'Mumbai North', 'Dosage Strength': '30', 'Price (INR)': 740},
-        'Ascolite': {'Insulin Name': 'Ascolite Fixobond Polymer Modified Tile Adhesive', 'Insulin Type':'Mumbai North', 'Dosage Strength': '50', 'Price (INR)': 630},
-        'Build': {'Insulin Name': 'Build Green Tile Adhesive', 'Insulin Type': 'Mumbai Central / Eastern', 'Dosage Strength': '10', 'Price (INR)': 650},
-        'Capaland': {'Insulin Name': 'Capaland Plus (Grey) C1T', 'Insulin Type': 'Mumbai Central / Eastern', 'Dosage Strength': '10', 'Price (INR)': 770},
-        'DR': {'Insulin Name': 'DR Fixit Floor Tile Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': '30', 'Price (INR)': 630},
-        'Duw': {'Insulin Name': 'Duw Fix S1 252 Floor Tiling Solutions Adhesion', 'Insulin Type': 'Mumbai North', 'Dosage Strength': '10', 'Price (INR)': 740},
-        'Fosroc': {'Insulin Name': 'Fosroc Nitotile Mpa Tile Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': '10', 'Price (INR)': 660},
-        'Hawks': {'Insulin Name': 'Hawks Tile Fixing Plaster', 'Insulin Type': 'Mumbai North', 'Dosage Strength': '30', 'Price (INR)': 610},
-        'Indiana': {'Insulin Name': 'Indiana Colors BondEx Tile Adhesive T2 Non-Skid Tile', 'Insulin Type': 'Mumbai North', 'Dosage Strength': '10', 'Price (INR)': 750},
-        'JK': {'Insulin Name': 'JK Cement Supreme White Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': '50', 'Price (INR)': 790},
-        'LATICRETE': {'Insulin Name': 'LATICRETE 335 Super Flex Multipurpose Floor And Wall Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': '10', 'Price (INR)': 720},
-        'Mcon': {'Insulin Name': 'Mcon Super Add', 'Insulin Type': 'Mumbai North', 'Dosage Strength': '10', 'Price (INR)': 690},
-        'Myk': {'Insulin Name': 'Myk Laticrete L-325 High Flex White', 'Insulin Type': 'Mumbai North', 'Dosage Strength': '10', 'Price (INR)': 760},
-        'Roff': {'Insulin Name': 'Roff Non Skid Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': '10', 'Price (INR)': 600},
-        'ROKSO': {'Insulin Name': 'ROKSO Tile On Tile TTF Tile Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': '10', 'Price (INR)': 700},
-        'Sika': {'Insulin Name': 'Sika Ceram 255 Large Tile Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': '50', 'Price (INR)': 610},
-        'TIPRO': {'Insulin Name': 'TIPRO - NSA -309 GREY TILE ON TILE Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': '10', 'Price (INR)': 760},
-        'Vura': {'Insulin Name': 'Vura Fastile Plus White Tile Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': '30', 'Price (INR)': 680},
-        'Webber': {'Insulin Name': 'Webber Floor Tile Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': '30', 'Price (INR)': 610}
+        'Ultratech': {'Insulin Name': 'Ultratech Tilefixo NT Good Bonding', 'Insulin Type': 'Mumbai North', 'Dosage Strength': 30, 'Price (INR)': 740},
+        'Ascolite': {'Insulin Name': 'Ascolite Fixobond Polymer Modified Tile Adhesive', 'Insulin Type':'Mumbai North', 'Dosage Strength': 50, 'Price (INR)': 630},
+        'Build': {'Insulin Name': 'Build Green Tile Adhesive', 'Insulin Type': 'Mumbai Central / Eastern', 'Dosage Strength': 10, 'Price (INR)': 650},
+        'Capaland': {'Insulin Name': 'Capaland Plus (Grey) C1T', 'Insulin Type': 'Mumbai Central / Eastern', 'Dosage Strength': 10, 'Price (INR)': 770},
+        'DR': {'Insulin Name': 'DR Fixit Floor Tile Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': 30, 'Price (INR)': 630},
+        'Duw': {'Insulin Name': 'Duw Fix S1 252 Floor Tiling Solutions Adhesion', 'Insulin Type': 'Mumbai North', 'Dosage Strength': 10, 'Price (INR)': 740},
+        'Fosroc': {'Insulin Name': 'Fosroc Nitotile Mpa Tile Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': 10, 'Price (INR)': 660},
+        'Hawks': {'Insulin Name': 'Hawks Tile Fixing Plaster', 'Insulin Type': 'Mumbai North', 'Dosage Strength': 30, 'Price (INR)': 610},
+        'Indiana': {'Insulin Name': 'Indiana Colors BondEx Tile Adhesive T2 Non-Skid Tile', 'Insulin Type': 'Mumbai North', 'Dosage Strength': 10, 'Price (INR)': 750},
+        'JK': {'Insulin Name': 'JK Cement Supreme White Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': 50, 'Price (INR)': 790},
+        'LATICRETE': {'Insulin Name': 'LATICRETE 335 Super Flex Multipurpose Floor And Wall Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': 10, 'Price (INR)': 720},
+        'Mcon': {'Insulin Name': 'Mcon Super Add', 'Insulin Type': 'Mumbai North', 'Dosage Strength': 10, 'Price (INR)': 690},
+        'Myk': {'Insulin Name': 'Myk Laticrete L-325 High Flex White', 'Insulin Type': 'Mumbai North', 'Dosage Strength': 10, 'Price (INR)': 760},
+        'Roff': {'Insulin Name': 'Roff Non Skid Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': 10, 'Price (INR)': 600},
+        'ROKSO': {'Insulin Name': 'ROKSO Tile On Tile TTF Tile Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': 10, 'Price (INR)': 700},
+        'Sika': {'Insulin Name': 'Sika Ceram 255 Large Tile Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': 50, 'Price (INR)': 610},
+        'TIPRO': {'Insulin Name': 'TIPRO - NSA -309 GREY TILE ON TILE Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': 10, 'Price (INR)': 760},
+        'Vura': {'Insulin Name': 'Vura Fastile Plus White Tile Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': 30, 'Price (INR)': 680},
+        'Webber': {'Insulin Name': 'Webber Floor Tile Adhesive', 'Insulin Type': 'Mumbai North', 'Dosage Strength': 30, 'Price (INR)': 610}
                 
     }
     return insulin_details.get(brand_name, {'Insulin Name': '', 'Insulin Type': '', 'Dosage Strength': '', 'Price (INR)': ''})
