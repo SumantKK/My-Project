@@ -264,8 +264,7 @@ def main():
             # Make prediction
             prediction = lr_model.predict(input_data)
             # Display prediction
-            st.write('Predicted Insulin Stock:', prediction)
-            prediction = 0
+            st.write('Predicted Insulin Stock:', prediction[0])
 
 if __name__ == '__main__':
     main()
