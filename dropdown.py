@@ -209,7 +209,7 @@ def main():
     st.write('Store Pincode:', pincode)
 
     # Dropdown options for brand name
-    brand_names = ['Ultratech','Webber','Mcon']
+    brand_names = ['Ultratech', 'DR', 'Myk', 'Capaland', 'TIPRO', 'Webber', 'Vura', 'Fosroc', 'Build', 'LATICRETE', 'JK', 'Hawks', 'Indiana', 'Duw', 'Roff', 'Sika', 'ROKSO', 'Mcon', 'Ascolite']
     
     brand_name = st.selectbox('Brand Name', brand_names)
 
