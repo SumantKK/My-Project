@@ -39,7 +39,7 @@ def main():
     if not filtered_data.empty:
         st.subheader(f'Store Information for Pincode {pincode}:')
         # Display selected columns: Store Name, Brand Name, Insulin Name, Insulin Type, Price, and Quantity Available
-        st.dataframe(filtered_data[['Shop Name', 'Brand Name', 'Brand Type', 'Division', 'Price (INR)', 'Quantity Available (Multiples Of 30Kg)']])
+        st.dataframe(filtered_data[['Store Name', 'Brand Name', 'Insulin Name', 'Insulin Type', 'Price (INR)', 'Quantity available']])
     else:
         st.write(f"No store found for the pincode '{pincode}'.")
 
