@@ -26,7 +26,7 @@ def main():
     st.title('Store Information by Pincode')
 
     # Sidebar - Pincode input with default values
-    default_pincodes = ['400104', '400064', '400063', '400092', '400067', '400068', '400069', '400047','400019', '400014', '400031', '400056', '400099', '400057', '400058', '400028']  # Example default pincodes
+    default_pincodes = ['400602', '400808', '400601', '401107', '400091', '400086', '400022', '400014', '400042', '400079', '400053', '400050', '400054', '400052', '400056', '400055', '400013', '400008', '400011', '400012', '400004']  # Example default pincodes
     pincode = st.sidebar.selectbox("Select Store Pincode", default_pincodes)
 
     # Convert pincode to integer for comparison
