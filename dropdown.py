@@ -230,7 +230,7 @@ def main():
     st.write('Insulin Type:', insulin_details.get('Insulin Type', ''))
 
     # Dropdown options for dosage strength
-    dosage_strengths = ['100', '40']
+    dosage_strengths = ['High', 'Medium','Low']
     dosage_strength = st.selectbox('Dosage Strength', dosage_strengths)
 
     # Display price based on selected brand name
